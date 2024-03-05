@@ -50,3 +50,59 @@
   background-color: #f1af71;
   cursor: pointer;
 }
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.list {
+  width: 220px;
+  background-color: #12303f;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
+
+input:focus {
+  outline: none;
+}
+
+.button-complete,
+.button-delete,
+.button-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete {
+  color: #ff6c6c;
+  margin-right: 10px;
+}
+
+.button-edit {
+  color: #e2d029;
+  margin-right: 10px;
+}
+
+.button-delete {
+  color: lightseagreen;
+}
